@@ -1,0 +1,17 @@
+.countries{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+}
+.flags{
+  display: grid;
+  grid-template-columns: repeat(8,1fr);
+  gap: 20px;
+}
+.flags img{
+   width: 100px;   /* pick a size */
+  height: 60px;  /* force same height */
+  object-fit: cover;  /* crop nicely without distortion */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
